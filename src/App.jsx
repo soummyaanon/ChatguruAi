@@ -17,7 +17,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-gray-800 text-white flex items-center justify-center p-4">
+    <div className="min-h-screen w-full bg-gray-800 text-white flex items-center justify-center p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12">
       <div className="w-full max-w-7xl">
         <main className="w-full bg-gray-800 rounded-lg shadow-xl overflow-hidden">
           <Layout config={config} updateConfig={updateConfig} />
