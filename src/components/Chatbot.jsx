@@ -17,7 +17,7 @@ function ChatbotUI({ config, className }) {
       const newMessage = { text: input, sender: 'user' };
       setMessages([...messages, newMessage]);
       setInput('');
-      // Simulate bot response
+
       setTimeout(() => {
         const botMessage = { text: `You said: ${input}`, sender: 'bot' };
         setMessages(prevMessages => [...prevMessages, botMessage]);
