@@ -18,6 +18,8 @@ function ChatbotUI({ config, className }) {
       setMessages([...messages, newMessage]);
       setInput('');
 
+
+      
       setTimeout(() => {
         const botMessage = { text: `You said: ${input}`, sender: 'bot' };
         setMessages(prevMessages => [...prevMessages, botMessage]);

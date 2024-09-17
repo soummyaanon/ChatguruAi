@@ -9,7 +9,7 @@ export default function App() {
     suggestedCategories: 'General, Support, Feedback',
     messageStyle: 'normal',
     textColor: '#ffffff',
-    theme: 'dark', // Default theme
+    theme: 'dark', 
   });
 
   const updateConfig = (newConfig) => {
